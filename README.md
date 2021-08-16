@@ -59,7 +59,7 @@ Here's a brief documentation of using NextXGamesForecast. NextXGamesForecast use
 from sfnba.NextXGamesForecast import NextXGamesForecast
 
 #Select Player and Stat to Forecast. In this case Michael Jordan is selected and Points per Game is tracked.
-forecast = NextXGamesSimulator('Michael Jordan')
+forecast = NextXGamesForecast('Michael Jordan')
 
 #Forecast PPG for Michael Jordan for 10 games 
 forecast.simulate(10, verbose = 1, test_loss = True, loss_curve= True)
