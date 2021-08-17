@@ -2,7 +2,7 @@ class NextXGamesForecast():
   def __init__(self, player_name, stat = 'PTS'):
     import pandas as pd
     import numpy as np
-    df  = pd.read_csv('https://media.githubusercontent.com/media/tarsur909/SFNBA/main/data/final_player_tables.csv?token=AQNRAYNUIPWES7O74DXDRK3BDPWCQ')
+    df  = pd.read_csv('https://media.githubusercontent.com/media/tarsur909/SF_NBA/main/data/final_player_tables.csv?token=AQNRAYI3VUZVTVDQMHTDRYDBDPZWC')
     self.df = df
 
     #store input data
