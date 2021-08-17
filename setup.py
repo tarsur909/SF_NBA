@@ -8,7 +8,7 @@ setup(
   author = 'Tarun Suresh',                   # Type in your name
   author_email = 'tarsur909@gmail.com',      # Type in your E-Mail
   url = 'https://github.com/tarsur909/SF_NBA',   # Provide either the link to your github or to your website
-  download_url = 'https://github.com/tarsur909/SF_NBA/archive/refs/tags/v_03.tar.gz',    # I explain this later on 
+  download_url = 'https://github.com/tarsur909/SF_NBA/archive/refs/tags/v_04.tar.gz',    # I explain this later on 
   keywords = ['NBA', 'Machine Learning', 'Time Series Forecasting'],   # Keywords that define your package best
   install_requires=[            # I get to this in a second
           'matplotlib',
