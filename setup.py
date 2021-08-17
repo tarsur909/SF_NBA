@@ -1,14 +1,14 @@
 from distutils.core import setup
 setup(
-  name = 'sfnba',         # How you named your package folder (MyLib)
-  packages = ['sfnba'],   # Chose the same as "name"
+  name = 'sf_nba',         # How you named your package folder (MyLib)
+  packages = ['sf_nba'],   # Chose the same as "name"
   version = '0.1',      # Start with a small number and increase it with every change you make
   license='MIT',        # Chose a license from here: https://help.github.com/articles/licensing-a-repository
   description = 'Simulate NBA Games Between Custom Teams and Forecast Player Stats in Future Games',   # Give a short description about your library
   author = 'Tarun Suresh',                   # Type in your name
   author_email = 'tarsur909@gmail.com',      # Type in your E-Mail
-  url = 'https://github.com/tarsur909/SFNBA',   # Provide either the link to your github or to your website
-  download_url = 'https://github.com/tarsur909/SFNBA/archive/refs/tags/v_01.tar.gz',    # I explain this later on 
+  url = 'https://github.com/tarsur909/SF_NBA',   # Provide either the link to your github or to your website
+  download_url = 'https://github.com/tarsur909/SF_NBA/archive/refs/tags/v_01.tar.gz',    # I explain this later on 
   keywords = ['NBA', 'Machine Learning', 'Time Series Forecasting'],   # Keywords that define your package best
   install_requires=[            # I get to this in a second
           'matplotlib',
