@@ -1,7 +1,7 @@
-# SFNBA
+# SF_NBA
 ## _Simulate and Forecast NBA Games Quickly and Efficiently_
 
-SFNBA is a Python library for simulating NBA games between custom teams and for forecasting NBA player stats in future games. SFNBA uses high-performing machine learning models trained on Basketball-Reference data from nearly every player who has played in a basketball game since 1970. See paper for details and citations. 
+SF_NBA is a Python library for simulating NBA games between custom teams and for forecasting NBA player stats in future games. SF_NBA uses high-performing machine learning models trained on Basketball-Reference data from nearly every player who has played in a basketball game since 1970. See paper for details and citations. 
 
 - Decide whether to forecast or simulate
 - Call the respective class
@@ -12,10 +12,10 @@ SFNBA is a Python library for simulating NBA games between custom teams and for 
 
 ## Installation
 
-Use the package manager [pip](https://pip.pypa.io/en/stable/) to install SFNBA.
+Use the package manager [pip](https://pip.pypa.io/en/stable/) to install SF_NBA.
 
 ```bash
-pip install sfnba
+pip install sf_nba
 ```
 
 ## NBAGamesSimulator
@@ -23,7 +23,7 @@ Here's a brief documentation of using NBAGamesSimulator to simulate a custom NBA
 
 ### Example Usage
 ```python
-from sfnba.NBAGamesSimulator import NBAGamesSimulator
+from sf_nba.NBAGamesSimulator import NBAGamesSimulator
 
 # input player data
 bot = NBAGamesSimulator('Alex Caruso', 32, 2020, 'Kentavious Caldwell-Pope', 36, 2020, 'Kawhi Leonard', 35, 2012, 'Kyle Kuzma', 35, 2018, 'Damian Jones', 35, 2020, 'Ben Simmons', 8, 2021,'PG', 'DeMar DeRozan', 10, 2015, 'SG', 'Danny Green', 13, 2021, 'SF', 'Karl Malone', 13, 2004, 'PF', 'Bob Lanier', 13, 1973, 'C', 'Muggsy Bogues', 8, 1989, 'PG', 'Michael Jordan', 2, 1997, 'SG', 'Stephen Curry', 32, 2017, 'James Harden', 36, 2020, 'LeBron James', 35, 2017, 'Larry Nance Jr.', 35, 2016, 'Zaid Abdul-Aziz', 35, 1971, 'Chris Paul', 8, 2020,'PG', 'Kobe Bryant', 10, 2015, 'SG', 'Joe Harris', 13, 2020, 'SF', 'Dwight Howard', 13, 2005, 'PF', 'Kevin Love', 13, 2018, 'C', 'Kyrie Irving', 8, 2021, 'PG', 'Michael Jordan', 2, 1998, 'SG')
@@ -56,7 +56,7 @@ Here's a brief documentation of using NextXGamesForecast. NextXGamesForecast use
 
 ### Example Usage
 ```python
-from sfnba.NextXGamesForecast import NextXGamesForecast
+from sf_nba.NextXGamesForecast import NextXGamesForecast
 
 #Select Player and Stat to Forecast. In this case Michael Jordan is selected and Points per Game is tracked.
 forecast = NextXGamesForecast('Michael Jordan')
