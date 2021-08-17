@@ -17,7 +17,6 @@ setup(
           'keras',
           'tensorflow',
           'sklearn',
-          'warnings',
           'scipy',
           'plotly'
       ],
