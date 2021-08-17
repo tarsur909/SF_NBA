@@ -4,7 +4,7 @@ class NBAGamesSimulator():
     from sklearn.linear_model import LinearRegression
     from sklearn.neural_network import MLPRegressor
     import warnings
-    self.df  = pd.read_csv('https://media.githubusercontent.com/media/tarsur909/SF_NBA/main/data/final_player_tables.csv?token=AQNRAYI3VUZVTVDQMHTDRYDBDPZWC')
+    self.df  = pd.read_csv('https://github.com/tarsur909/SF_NBA/blob/main/data/final_player_tables.csv?raw=true')
     #pg
     self.pg_name = pg_name
     self.pg_minutes = pg_minutes
