@@ -1,2 +1,2 @@
-from NBAGamesSimulator import NBAGamesSimulator
-from NextXGamesForecast import NextXGamesForecast
+from sf_nba.NBAGamesSimulator import NBAGamesSimulator
+from sf_nba.NextXGamesForecast import NextXGamesForecast
